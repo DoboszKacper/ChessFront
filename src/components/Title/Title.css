@@ -1,0 +1,34 @@
+#chessboard .title {
+    display: grid;
+    place-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.title .chess-piece {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+}
+
+.title .chess-piece:hover {
+    cursor: grab;
+}
+
+.title .chess-piece:active {
+    cursor: grabbing;
+}
+
+#chessboard .black-title {
+    background-color: #779556;
+}
+
+#chessboard .white-title {
+    background-color: #ebecd0;
+}
+
+.title img {
+    width: 80px;
+}
